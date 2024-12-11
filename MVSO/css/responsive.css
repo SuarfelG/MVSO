@@ -1,0 +1,316 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0 17px;
+    }
+    .text-bg span {
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 7px;
+    }
+    .text-bg h1 {
+        font-size: 77px;
+        line-height: 74px;
+        padding-bottom: 11px;
+    }
+    .text-bg span {
+        font-size: 37px;
+        line-height: 42px;
+    }
+    .about .about_box h3 {
+        font-size: 24px;
+    }
+    .about .about_box {
+        padding: 123px 114px 30px 100px;
+    }
+    ul.location_icon li {
+        padding-left: 38px;
+    }
+    .bottom_form .enter {
+        width: 55%;
+    }
+    ul.social_icon li a {
+        margin: 0px 1px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 9px;
+    }
+    .banner_main {
+        min-height: 605px;
+    }
+    .text-bg h1 {
+        font-size: 49px;
+        line-height: 65px;
+        padding-bottom: 10px;
+    }
+
+    .text-bg span {
+        font-size: 28px;
+        line-height: 23px;
+    }
+    .text-bg a {
+        max-width: 139px;
+        padding: 9px 0px;
+    }
+    .titlepage h2 {
+        font-size: 33px;
+    }
+    .carousel-control-prev {
+        left: inherit;
+        right: 19%;
+    }
+    .d_none {
+        display: none;
+    }
+    .about .about_box {
+        padding: 95px 91px 30px 91px;
+    }
+    .about .about_box p {
+        font-size: 15px;
+    }
+    ul.location_icon li {
+        font-size: 15px;
+        padding-left: 8px;
+    }
+    .bottom_form .enter {
+        width: 58%;
+    }
+    .sub_btn {
+        padding: 12px 0px;
+        max-width: 137px;
+        margin-left: -2px;
+    }
+    ul.social_icon li a {
+        width: 32px;
+        font-size: 19px;
+        margin: 0px 1px;
+        height: 32px;
+    }
+    .work figure img {
+        width: 100%;
+        height: 250px;
+   }
+   .work_text
+   {
+    display: none;
+   }
+   #see_products
+   {
+       
+       font-size: small;
+       width: 115px;
+  
+   }
+
+}
+
+
+
+@media (max-width: 768px) {
+    .header {
+        padding: 30px 0px 15px 0px;
+    }
+    .logo {
+        text-align: left !important;
+        padding-bottom: 6px;
+        float: left;
+    }
+    .logo img {
+        width: 20%;
+        height: 20%;
+    }
+
+    .text-bg h1 {
+        font-size: 47px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+    .three_box {
+        padding: 0 0px;
+    }
+    .text-bg {
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+    .text-bg span {
+        font-size: 27px;
+        line-height: 52px;
+    }
+    .box_text {
+        margin-top: 30px;
+        box-shadow: #ddd 0px 0px 7px 0px;
+    }
+    .carousel-control-next {
+        right: 7%;
+    }
+    .carousel-control-prev {
+        right: 23%;
+    }
+    ul.btn {
+        display: none;
+    }
+    .margin_boot {
+        margin-bottom: 20px;
+    }
+    .text-bg a {
+        max-width: 132px;
+        padding: 10px 0px;
+    }
+    .titlepage h2 {
+        font-size: 27px;
+        line-height: 44px;
+    }
+    .about_img {
+        margin-bottom: 20px;
+    }
+    ul.location_icon li {
+        padding-left: 0px;
+        display: block;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .bottom_form .enter {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about .about_img {
+        background: inherit;
+    }
+    .about .about_box {
+        padding: 0px 0px 30px 0px;
+    }
+    .about_box {
+        padding-top: 0;
+    }
+    .about .about_box h3 {
+        font-size: 21px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -45px;
+    }
+    .navigation .navbar-collapse {
+        background: #000;
+        padding: 20px;
+        margin-top: 67px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: #51fe44;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+    .testimonial_box {
+        padding: 0px 19px 40px 20px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .work figure img {
+        padding-left: 100px;
+   }
+
+   .row .col-4 {
+    flex: 0 0 100%;
+    max-width: 100%; 
+    margin: 20px;
+    margin-left: 15%;
+    
+  }
+  .work_text {
+    display: none; 
+}
+
+}
+@media (max-width: 768px) {
+
+.row .col-4 {
+   
+        margin-left: 0%;
+      }    
+
+.work figure img {
+    width: 90%;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 0%;
+
+}
+
+    .work_text {
+        display: none; 
+    }  
+
+    #see_products
+    {
+        
+        font-size: small;
+   
+    }
+    .product-name
+    {
+        width: 70%;
+        margin-left: 20%;
+    }
+    .product_image img
+    {
+        margin-left: 20%;
+    }
+}
+@media (min-width: 991px) {
+    #see_products
+    {
+        display: none;
+    }
+
+  
+
+
+
+}
+
+
+@media (max-width: 480px) {
+    .work figure img {
+        width: 90%;
+        height: 250px;
+        border-radius: 10px;
+        margin-left: -7%;
+    
+    }
+    .product-name
+    {
+        width: 65%;
+        margin-left: 18%;
+    }
+    .product_image img {
+   
+        margin-left: 10%;
+      }    
+}
